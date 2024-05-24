@@ -5,6 +5,13 @@ import (
 )
 
 func main() {
+  var a string
+  var b int
+  var c bool
+
+  fmt.Println(a)
+  fmt.Println(b)
+  fmt.Println(c)
   // Variable Declaration With Initial Value
 
   var student1 string = "John" //type is string
