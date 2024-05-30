@@ -26,4 +26,23 @@ func main() {
 	90
 	100
 	*/
+
+	/* range
+	for index, value := array|slice|map {
+   // code to be executed for each iteration
+	}
+
+	*/
+
+	fruits := [3]string{"apple", "orange", "banana"}
+  for idx, val := range fruits {
+     fmt.Printf("%v\t%v\n", idx, val)
+  }
+
+	fruits_1 := [3]string{"apple", "orange", "banana"}
+
+  for idx, _ := range fruits_1 {
+     fmt.Printf("%v\n", idx)
+  }
+	
 }
